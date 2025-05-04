@@ -5860,22 +5860,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 91a40eb5df1d95d498b4ed770e3e81f5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26.301594
+      value: 26.28607
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 91a40eb5df1d95d498b4ed770e3e81f5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.09
+      value: 1.18
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 91a40eb5df1d95d498b4ed770e3e81f5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 41.24992
+      value: 41.239887
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 91a40eb5df1d95d498b4ed770e3e81f5,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.31994525
+      value: 0.47365913
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 91a40eb5df1d95d498b4ed770e3e81f5,
         type: 3}
@@ -5885,7 +5885,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 91a40eb5df1d95d498b4ed770e3e81f5,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.94743603
+      value: 0.8807083
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 91a40eb5df1d95d498b4ed770e3e81f5,
         type: 3}
@@ -5900,7 +5900,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 91a40eb5df1d95d498b4ed770e3e81f5,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 142.681
+      value: 123.456
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 91a40eb5df1d95d498b4ed770e3e81f5,
         type: 3}
@@ -6061,6 +6061,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sewerfiend
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 91a40eb5df1d95d498b4ed770e3e81f5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1038915634976482047, guid: 91a40eb5df1d95d498b4ed770e3e81f5,
         type: 3}
