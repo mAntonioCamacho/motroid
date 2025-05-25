@@ -1,10 +1,18 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/6nx_gS-F)
 # GDIM33 Demo Project
+## Assets used
+[Sci-fi PSX Style Heavy Machine Gun - V1](https://millennial-voxel-forge.itch.io/sci-fi-low-poly-v1)
+[Kim Lightyear - Destiny (Wave G)](https://opengameart.org/content/destiny-wave-g)
+[Sci-fi Guns SFX Pack - Mikael Vanninen](https://assetstore.unity.com/packages/audio/sound-fx/sci-fi-guns-sfx-pack-181144)
+[Sci-fi Construction Kit (Modular) - Sickhead Games](https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-construction-kit-modular-159280)
+[PSX Sewerfiend Animated - ROKAY3D](https://www.fab.com/listings/5fd24ce7-f7ef-4866-82cd-0a161ca5acd5)
+[Franky - 06hypersonic60](https://www.models-resource.com/playstation_3/onepiecepiratewarriors/model/5432/)
+
+
 ## Milestone 1 Devlog
 Player Graph asset: https://github.com/UCI-GDIM33/vertical-slice-BulkyCaulk/blob/main/Motroid/Assets/VisualGraphs/Player%20Graphs/player-graph.asset
 Player Input Actions: https://github.com/UCI-GDIM33/vertical-slice-BulkyCaulk/blob/main/Motroid/Assets/Input/Player/Motroid-Player-Move.inputactions
 I believe I didn't overscope. Originally I wanted to implement a boss, but from the performance of my game in browser leaves me wondering if it is even worth continuing this project. I may have to restart and scope way down, so that the game can run smoothly. I still think what I had is doable, but if I can't fix the performance, then this project is dead. I don't think the systems I had wanted to build were that complex since I would have given them one or two mechanics, such as boss spin around until it sees player, then go that direction. 
-
 
 
 ## Milestone 2 Devlog
@@ -19,7 +27,18 @@ The enemy transition from idle to walking in the enemy state machine and the ani
 
 
 ## Milestone 3 Devlog
-Milestone 3 Devlog goes here.
+Shader Graph:         https://github.com/UCI-GDIM33/vertical-slice-BulkyCaulk/blob/main/Motroid/Assets/Shader%20Graph/Sun.shadergraph
+
+Does shrinking my scope count as progress? I had to scrap and remake the level I had to account for the changes I made some player mechanics. Originally a dash was implemented, but the gameplay wasn't fun, so I scrapped it and turned it into a jetpack. The original level was designed around the dash mechanic, so that needed to redone. Now the goal of the gameplay is to have the player 
+ - access a generator to turn on the power, the power will open a door to the powerup
+ - make their way back to the power up, fighting through waves of enemies 
+ - get the power up
+ - use the power up to traverse towards the upper layer of the level
+ - maybe fight an invincible boss that the player will need to eject from the room or just eject something from the room or escape sequence
+
+The shadergraph doesn't really play any role, its supposed to be a sun/star, but I couldn't find a good texture to animate. I decided to just have the player hair texture on it. The animation does play a bit fast, but that's probably because I am multiplying the texture by time. I'm certain I could slow it down by making time slower, but like I said, it really doesn't play any role. I wanted the game to be a bit darker, and the only light source to be the sun. However, for some reason, the light seems to light everything even when objects should block it out. The shadows aren't shadowing in simpler terms. Even with no light in the scene, the materials on the structures give off a faint yellow glow. At this point it's either I multiply the texture for every different texture in the scene or finish the gameplay.  
+
+
 ## Final Devlog
 Final Devlog goes here.
 ## Open-source assets
