@@ -35686,6 +35686,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SewerRemade
       objectReference: {fileID: 0}
+    - target: {fileID: 3030912606410543350, guid: 1090739e5ba963b4ab226c0a1cc01c29,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5276981556845213380, guid: 1090739e5ba963b4ab226c0a1cc01c29,
         type: 3}
       propertyPath: m_LocalPosition.x
