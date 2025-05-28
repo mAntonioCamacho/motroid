@@ -7,6 +7,8 @@
 [Sci-fi Construction Kit (Modular) - Sickhead Games](https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-construction-kit-modular-159280)
 [PSX Sewerfiend Animated - ROKAY3D](https://www.fab.com/listings/5fd24ce7-f7ef-4866-82cd-0a161ca5acd5)
 [Franky - 06hypersonic60](https://www.models-resource.com/playstation_3/onepiecepiratewarriors/model/5432/)
+[Free Quick Effects Vol.1 - Gabriel Aguiar Prod](https://assetstore.unity.com/packages/vfx/particles/free-quick-effects-vol-1-304424)
+[Grenade Sound FX - MGWSoundDesign](https://assetstore.unity.com/packages/audio/sound-fx/grenade-sound-fx-147490)
 
 
 ## Milestone 1 Devlog
