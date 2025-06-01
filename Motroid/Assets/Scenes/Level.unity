@@ -2607,7 +2607,7 @@ Transform:
   m_GameObject: {fileID: 65684573}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -20, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -48.000015}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2619,7 +2619,7 @@ Transform:
   - {fileID: 1211236138}
   - {fileID: 1703750823}
   - {fileID: 730690544}
-  m_Father: {fileID: 680921630}
+  m_Father: {fileID: 1043051407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &65684575
 MonoBehaviour:
@@ -2628,7 +2628,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 65684573}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
   m_Name: 
@@ -27212,7 +27212,6 @@ Transform:
   - {fileID: 60496568}
   - {fileID: 83702096}
   - {fileID: 700568164}
-  - {fileID: 65684574}
   - {fileID: 1575118900}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -39801,7 +39800,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 10000
+  far clip plane: 1000
   field of view: 60.000004
   orthographic: 0
   orthographic size: 5
@@ -41836,6 +41835,7 @@ Transform:
   - {fileID: 460285702}
   - {fileID: 1322153992}
   - {fileID: 1777818152}
+  - {fileID: 65684574}
   m_Father: {fileID: 928181711}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1043051408
@@ -41867,7 +41867,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 829842913ed21d94ebfff8a3f66baa7a, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1001 &1048265418
 PrefabInstance:
@@ -61190,7 +61190,7 @@ PrefabInstance:
     - target: {fileID: 3030912606410543350, guid: 1090739e5ba963b4ab226c0a1cc01c29,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3420051308980493816, guid: 1090739e5ba963b4ab226c0a1cc01c29,
         type: 3}
@@ -83033,7 +83033,7 @@ Transform:
   m_GameObject: {fileID: 2097271552}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: -58.9, y: -6.2, z: -110.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
