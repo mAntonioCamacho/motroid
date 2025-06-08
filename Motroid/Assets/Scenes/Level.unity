@@ -70449,12 +70449,12 @@ PrefabInstance:
     - target: {fileID: 1622973677832757580, guid: 1090739e5ba963b4ab226c0a1cc01c29,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1622973677832757580, guid: 1090739e5ba963b4ab226c0a1cc01c29,
         type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Boss
       objectReference: {fileID: 0}
     - target: {fileID: 1731341961762176604, guid: 1090739e5ba963b4ab226c0a1cc01c29,
         type: 3}
