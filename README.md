@@ -1,7 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/6nx_gS-F)
 # GDIM33 Demo Project
 
-
 ## Milestone 1 Devlog
 Player Graph asset: https://github.com/UCI-GDIM33/vertical-slice-BulkyCaulk/blob/main/Motroid/Assets/VisualGraphs/Player%20Graphs/player-graph.asset
 Player Input Actions: https://github.com/UCI-GDIM33/vertical-slice-BulkyCaulk/blob/main/Motroid/Assets/Input/Player/Motroid-Player-Move.inputactions
@@ -39,8 +38,6 @@ The gameplay activated visuals - hopefully - help the player to defeat the boss.
 All of these effects are events within script graphs(script machines and state machines). The enemy spawner uses a state machine. It has two states, on and off. The spawner turns off when there are 24 enemies within the scene. When a player shoots an enemy, the enemy counter is reduced, the enemy is destroyed, and then the spawner is turned back on. 
 Another script machine is on the buttons in the boss room. This script machines controls the events of how and when the particles systems execute. The button waits for player input, and then executes the steps above when I mentioned the gameplay activated visuals. 
 
-This iteration is not related to the mood board, not entirely.
-
 
 ## Open-source assets
 ## Assets used
@@ -52,3 +49,5 @@ This iteration is not related to the mood board, not entirely.
 [Franky - 06hypersonic60](https://www.models-resource.com/playstation_3/onepiecepiratewarriors/model/5432/)
 [Free Quick Effects Vol.1 - Gabriel Aguiar Prod](https://assetstore.unity.com/packages/vfx/particles/free-quick-effects-vol-1-304424)
 [Grenade Sound FX - MGWSoundDesign](https://assetstore.unity.com/packages/audio/sound-fx/grenade-sound-fx-147490)
+[Alarm Sound Effect - bonzille](https://opengameart.org/content/alarm-sound-effect)
+[Synth/Metal Climax Theme - Gradoa](https://opengameart.org/content/synthmetal-climax-theme)
