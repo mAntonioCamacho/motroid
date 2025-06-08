@@ -1,14 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/6nx_gS-F)
 # GDIM33 Demo Project
-## Assets used
-[Sci-fi PSX Style Heavy Machine Gun - V1](https://millennial-voxel-forge.itch.io/sci-fi-low-poly-v1)
-[Kim Lightyear - Destiny (Wave G)](https://opengameart.org/content/destiny-wave-g)
-[Sci-fi Guns SFX Pack - Mikael Vanninen](https://assetstore.unity.com/packages/audio/sound-fx/sci-fi-guns-sfx-pack-181144)
-[Sci-fi Construction Kit (Modular) - Sickhead Games](https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-construction-kit-modular-159280)
-[PSX Sewerfiend Animated - ROKAY3D](https://www.fab.com/listings/5fd24ce7-f7ef-4866-82cd-0a161ca5acd5)
-[Franky - 06hypersonic60](https://www.models-resource.com/playstation_3/onepiecepiratewarriors/model/5432/)
-[Free Quick Effects Vol.1 - Gabriel Aguiar Prod](https://assetstore.unity.com/packages/vfx/particles/free-quick-effects-vol-1-304424)
-[Grenade Sound FX - MGWSoundDesign](https://assetstore.unity.com/packages/audio/sound-fx/grenade-sound-fx-147490)
 
 
 ## Milestone 1 Devlog
@@ -42,6 +33,22 @@ The shadergraph doesn't really play any role, its supposed to be a sun/star, but
 
 
 ## Final Devlog
-Final Devlog goes here.
+The player can look around, shoot, and jetpack. This iteration has the player looking for the jetpack/fire extinguisher. Player leaves the spawn room and should see the extinguisher behind a locked gate. Player should then see two ways to go, one blocked by not being able to jump high enough and an other way leading downstairs. Going downstairs leads to storage room. Traversing the room enough should lead the player to a bright red button. Upon pressing button, the power "turns off", - may not always work in itch - music changes and enemies spawn repeatedly upon their death. Player must make their way back to locked gate since power is off, and then grab the item. After getting jetpack, player can now go to blocked off area by using jetpack to get to 2nd level. Traversing forward leads to a new item, a flare, and then leads to the boss room. Boss will see player only if player is on the ground. Boss can't be killed by gun and player must traverse the room to look for 3 buttons. Upon pressing a button, a beacon appears. The player must lead the boss to the beacon to trigger an event that damages the boss. This will be done 3 times. After boss is dead, escape sequence starts and player must make their way towards the exit and reach the portal before the timer runs out. Upon player's death, a new scene will load where they are allowed to choose between replaying or quitting. Escape portal changes scene to win area, similar to death scene area.
+
+The gameplay activated visuals - hopefully - help the player to defeat the boss. They are activated by pressing the buttons in the boss room. Pressing one will show a beacon. When player leads boss to beacon, the boss will stop, a bright light will shine upon the boss, lightning effects zap the boss, and then it stops and explodes, with a fire lingering. 3 times. 
+All of these effects are events within script graphs(script machines and state machines). The enemy spawner uses a state machine. It has two states, on and off. The spawner turns off when there are 24 enemies within the scene. When a player shoots an enemy, the enemy counter is reduced, the enemy is destroyed, and then the spawner is turned back on. 
+Another script machine is on the buttons in the boss room. This script machines controls the events of how and when the particles systems execute. The button waits for player input, and then executes the steps above when I mentioned the gameplay activated visuals. 
+
+This iteration is not related to the mood board, not entirely.
+
+
 ## Open-source assets
-- Cite any external assets used here!
+## Assets used
+[Sci-fi PSX Style Heavy Machine Gun - V1](https://millennial-voxel-forge.itch.io/sci-fi-low-poly-v1)
+[Kim Lightyear - Destiny (Wave G)](https://opengameart.org/content/destiny-wave-g)
+[Sci-fi Guns SFX Pack - Mikael Vanninen](https://assetstore.unity.com/packages/audio/sound-fx/sci-fi-guns-sfx-pack-181144)
+[Sci-fi Construction Kit (Modular) - Sickhead Games](https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-construction-kit-modular-159280)
+[PSX Sewerfiend Animated - ROKAY3D](https://www.fab.com/listings/5fd24ce7-f7ef-4866-82cd-0a161ca5acd5)
+[Franky - 06hypersonic60](https://www.models-resource.com/playstation_3/onepiecepiratewarriors/model/5432/)
+[Free Quick Effects Vol.1 - Gabriel Aguiar Prod](https://assetstore.unity.com/packages/vfx/particles/free-quick-effects-vol-1-304424)
+[Grenade Sound FX - MGWSoundDesign](https://assetstore.unity.com/packages/audio/sound-fx/grenade-sound-fx-147490)
