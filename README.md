@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/6nx_gS-F)
 # GDIM33 Demo Project
 
@@ -51,3 +52,7 @@ Another script machine is on the buttons in the boss room. This script machines 
 [Grenade Sound FX - MGWSoundDesign](https://assetstore.unity.com/packages/audio/sound-fx/grenade-sound-fx-147490)
 [Alarm Sound Effect - bonzille](https://opengameart.org/content/alarm-sound-effect)
 [Synth/Metal Climax Theme - Gradoa](https://opengameart.org/content/synthmetal-climax-theme)
+=======
+# motroid
+vertical slice from 2025 solo project
+>>>>>>> 5e223ab17a8c950a5e2901d22cea2ee4af056518
