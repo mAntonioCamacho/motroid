@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/6nx_gS-F)
 # GDIM33 Demo Project
 
 ## Milestone 1 Devlog
@@ -55,4 +53,3 @@ Another script machine is on the buttons in the boss room. This script machines 
 =======
 # motroid
 vertical slice from 2025 solo project
->>>>>>> 5e223ab17a8c950a5e2901d22cea2ee4af056518
